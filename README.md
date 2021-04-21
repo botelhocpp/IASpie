@@ -34,6 +34,10 @@ Where "input.ias" is the file with the IASlang mnemonics, you must put this, whe
 
 <a href="https://www.ic.unicamp.br/~edson/disciplinas/mc404/2017-2s/abef/IAS-sim/">IAS Simulator</a>
 
+There are 22 instructions, as showed bellow. There are some restraints: all procedures must begin with "\_" and end with a ":". All variable labels must, as well, end with ":". You can write one line commentaries with "#". The variables must be placed in data section, thats it, bellow the diretive ".data", anda the instructions must be placed in the code section, bellow ".code". The data sextion must be bellow the coode section. 
+
+This initial programm version accept up to 10 procedures and 232 variables.
+
 | Opcode | Instruction Type | Mnemonic | Operation | Description |
 | :---: | :---: | :---: | :---: | :---: |
 | 0x00 | Exit | HALT | - | Halt the program execution. Will abort the simulator with "invalidInstruction" exception. |
@@ -59,8 +63,33 @@ Where "input.ias" is the file with the IASlang mnemonics, you must put this, whe
 | 0x15 | Arithmetic | RSH | RSH | Shift <i>AC</i> register one bit to the right. |
 | 0x21 | Data Transfer | STR mem | STOR M(x) | Store <i>AC</i> contents in <i>mem</i>. |
 
+There are a few programs in examples/ folder. Check it out.
 
 # Language
+
+The language that was used was C++.
+
 # Versions
+
+IASpie v1.0.0: Initial commit. Some minor error handling messages. Parameters by terminal, one required, up to two: input file, with ".ias" extension, and a optional output file. In case of no output file, the output file will have the same name as the input, with the ".txt" extension. Some Fatal Errors:
+
+* No input file;
+* More than two parameters;
+* Input file doesn't exist;
+* Input file invalid extension;
+* Section directives misplaced or missing;
+* Instruction placed in data section;
+* More than one HALT instruction;
+* Bad procedure name, it must begin with "\_" and end with ":";
+* Duplicate procedure name;
+* Invalid variable value;
+* Duplicate variable name;
+
 # Licence
+
+Under the GNU General Public License v3.0.
+
 # Developer
+
+My name is Pedro M. Botelho. I'm a computer enginner stundent at Federal University of Ceará, in Brazil.
+For more informations, or to report some error, send an emain to pedrobotelho15@alu.ufc.br.
