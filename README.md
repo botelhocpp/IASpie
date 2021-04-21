@@ -1,6 +1,17 @@
 # IASpie v1.0.0
 Translator of IASlang mnemonic codes into opcodes that run on the IAS computer.
 
+<p align="center">
+ <a href="#objetivo">Objetivo</a> •
+ <a href="#roadmap">Roadmap</a> • 
+ <a href="#tecnologias">Tecnologias</a> • 
+ <a href="#contribuicao">Contribuição</a> • 
+ <a href="#licenc-a">Licença</a> • 
+ <a href="#autor">Autor</a>
+</p>
+
+
+
 | Opcode | Instruction Type | Mnemonic | Operation |
 | :---: | :---: | :---: | :---: |
 | 0x00 | Exit | HALT | - |
@@ -18,10 +29,12 @@ Translator of IASlang mnemonic codes into opcodes that run on the IAS computer.
 | 0x0C | Arithmetic | DIV mem | DIV M(x) |
 | 0x0D | Unconditional Branch | JMPT mem | JUMP M(x, 0:19) |
 | 0x0E | Unconditional Branch | JMPB mem | JUMP M(x, 20:39) |
-| 0x0F | Conditional Branch | JMPTs mem | JUMP+ M(x, 20:39) |
+| 0x0F | Conditional Branch | JMPTs mem | JUMP+ M(x, 0:19) |
 | 0x10 | Conditional Branch | JMPBs mem | JUMP+ M(x, 20:39) |
 | 0x12 | Address Modify | RPLT mem | STOR M(x, 8:19) |
 | 0x13 | Address Modify | RPLB mem | STOR M(x, 28:39) |
 | 0x14 | Arithmetic | LSH | LSH |
 | 0x15 | Arithmetic | RSH | RSH |
 | 0x21 | Data Transfer | STR mem | STOR M(x) |
+
+#objetivo
