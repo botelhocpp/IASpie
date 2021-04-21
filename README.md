@@ -18,6 +18,12 @@ The use of the IAS computer is interesting in learning computer architectures, b
 
 # Manual
 
+This programm was compiled in a Ubuntu 20.04, therefore it will only run in a linux-based kernel. To run in other kernel you must compile it. In the root directory do:
+
+'''
+make it
+'''
+
 <a href="https://www.ic.unicamp.br/~edson/disciplinas/mc404/2017-2s/abef/IAS-sim/">IAS Simulator</a>
 
 | Opcode | Instruction Type | Mnemonic | Operation | Description |
