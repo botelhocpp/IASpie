@@ -20,9 +20,17 @@ The use of the IAS computer is interesting in learning computer architectures, b
 
 This programm was compiled in a Ubuntu 20.04, therefore it will only run in a linux-based kernel. To run in other kernel you must compile it. In the root directory do:
 
-'''
+```
 make it
-'''
+```
+
+The binary will me in bin/ folder. Then, you must run it with at least one parameter, up to two, in the following fashion:
+
+```
+./bin/iaspie input.ias output.txt
+```
+
+Where "input.ias" is the file with the IASlang mnemonics, you must put this, where the extension must be ".ias", and "output.txt" is the file where the opcodes will be placed, an optional parameter. Done this you can test the program in the following simulator. Place the generated code in the box, press the load button and run it.
 
 <a href="https://www.ic.unicamp.br/~edson/disciplinas/mc404/2017-2s/abef/IAS-sim/">IAS Simulator</a>
 
