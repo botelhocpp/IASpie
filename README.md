@@ -37,4 +37,4 @@ Translator of IASlang mnemonic codes into opcodes that run on the IAS computer.
 | 0x15 | Arithmetic | RSH | RSH |
 | 0x21 | Data Transfer | STR mem | STOR M(x) |
 
-#objetivo
+# objetivo
