@@ -1,5 +1,5 @@
 # IASpie v1.0.0
-Translator of IASlang mnemonic codes into opcodes that run on the IAS computer.
+## An IAS machine assembler. Translates "IASlang" mnemonic codes into opcodes, executed on the IAS computer.
 
 <p align="center">
  <a href="#objetivo">Objetivo</a> •
