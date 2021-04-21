@@ -1,16 +1,22 @@
 # IASpie v1.0.0
-## An IAS machine assembler. Translates "IASlang" mnemonic codes into opcodes, executed on the IAS computer.
+## An IAS Machine Assembler. Translates "IASlang" mnemonic codes into opcodes, executed on the IAS computer.
 
 <p align="center">
- <a href="#objetivo">Objetivo</a> •
- <a href="#roadmap">Roadmap</a> • 
- <a href="#tecnologias">Tecnologias</a> • 
- <a href="#contribuicao">Contribuição</a> • 
- <a href="#licenc-a">Licença</a> • 
- <a href="#autor">Autor</a>
+ <a href="#objective">Objective</a> •
+ <a href="#manual">Manual</a> • 
+ <a href="#language">Language</a> • 
+ <a href="#versions">Versions</a> • 
+ <a href="#licence">Licence</a> • 
+ <a href="#developer">Developer</a>
 </p>
 
+# Objective
 
+The main objective is to facilitate learning on the subject of Computer Architecture and Organization through the use of programming for the IAS computer, using mnemonic instructions, similar to Assembly, as an introduction.
+
+The use of the IAS computer is interesting in learning computer architectures, but its programming is complicated, mainly due to the use of numeric opcodes for this. This project brings a relatively powerful and simple assembler, which will assist in learning, through mnemonic instructions.
+
+# Manual
 
 | Opcode | Instruction Type | Mnemonic | Operation |
 | :---: | :---: | :---: | :---: |
@@ -37,4 +43,8 @@
 | 0x15 | Arithmetic | RSH | RSH |
 | 0x21 | Data Transfer | STR mem | STOR M(x) |
 
-# objetivo
+
+# Language
+# Versions
+# Licence
+# Developer
