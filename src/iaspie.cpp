@@ -170,7 +170,7 @@ bool identifyVariables(){
                     temporaryVariableValue += source_code[step];
                 }
                 else{
-                    cout << "\033[1;37mIASpie:\033[0m \033[1;31mFatal error3\033[0m: bad variable name at line " << source_lineNumber <<".\nAborting.\n";
+                    cout << "\033[1;37mIASpie:\033[0m \033[1;31mFatal error3\033[0m: bad variable value at line " << source_lineNumber <<".\nAborting.\n";
                     return false;
                 }
             }
