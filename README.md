@@ -63,6 +63,13 @@ This initial programm version accept up to 10 procedures and 232 variables.
 | 0x15 | Arithmetic | RSH | RSH | Shift <i>AC</i> register one bit to the right. |
 | 0x21 | Data Transfer | STR mem | STOR M(x) | Store <i>AC</i> contents in <i>mem</i>. |
 
+There are 2 directives in the IASlang:
+
+| Diretive Type | Directive | Description |
+| :---: | :---: | :---: |
+| Delimiter | .code | Delimits the code segment in the program's memory. |
+| Delimiter | .data | Delimits the data segment in the program's memory. |
+
 There are a few programs in examples/ folder. Check it out.
 
 # Language
