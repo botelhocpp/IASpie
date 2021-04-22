@@ -1,4 +1,4 @@
-# IASpie v1.0.0
+# IASpie Alpha v0.1
 ## An IAS Machine Assembler. Translates "IASlang" mnemonic codes into opcodes, executed on the IAS computer.
 
 <p align="center">
