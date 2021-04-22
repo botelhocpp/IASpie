@@ -71,7 +71,7 @@ The language that was used was C++.
 
 # Versions
 
-IASpie v1.0.0: Initial commit. Some minor error handling messages. Parameters by terminal, one required, up to two: input file, with ".ias" extension, and a optional output file. In case of no output file, the output file will have the same name as the input, with the ".txt" extension. Some Fatal Errors:
+IASpie Alpha v0.1: Initial commit. Some minor error handling messages. Parameters by terminal, one required, up to two: input file, with ".ias" extension, and a optional output file. In case of no output file, the output file will have the same name as the input, with the ".txt" extension. Some Fatal Errors:
 
 * No input file;
 * More than two parameters;
@@ -84,6 +84,8 @@ IASpie v1.0.0: Initial commit. Some minor error handling messages. Parameters by
 * Duplicate procedure name;
 * Invalid variable value;
 * Duplicate variable name;
+
+This program is still in the testing phase. Help in the development, reporting any error to the developer.
 
 # Licence
 
